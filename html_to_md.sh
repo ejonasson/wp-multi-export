@@ -1,4 +1,4 @@
-# Based of md_to_rst.sh script written by https://gist.github.com/hugorodgerbrown
+# Based off md_to_rst.sh script written by https://gist.github.com/hugorodgerbrown
 # This script was created to convert a directory full
 # of html files into md equivalents. It uses
 # pandoc to do the conversion.
