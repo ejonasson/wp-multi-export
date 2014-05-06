@@ -114,7 +114,17 @@ EOT;
 
 	//Category generation function
 	public function generate_categories($content){
-			return null;
+		// Untested
+		$keywords = array('bariatric', 'revisional');
+		$words = preg_split("/[\s,]+/", $content);
+		foreach($words as $word){
+			foreach ($keywords as $keyword){
+				if ($word == $keyword){
+					
+				}
+			}
+		}
+		return null;
 	}
 
 }
